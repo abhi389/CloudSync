@@ -144,7 +144,7 @@ public class MainActivity extends SherlockFragmentActivity {
                     public void run() {
                         // send email
                         Log.d("here","here");
-                        Mail mail = new Mail("cloud360user@gmail.com", "cloudsync@");
+                        Mail mail = new Mail("cloud360user@gmail.com", "cloudsync");
                         final User user = datasource.getUserDetail();
                         if (user != null && user.getEmailId() != "") {
                             Random r = new Random();
